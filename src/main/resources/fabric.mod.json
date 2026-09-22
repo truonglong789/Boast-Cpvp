@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "boastcpvp",
+  "version": "${version}",
+  "name": "Boast CPvP",
+  "description": "Gửi tọa độ của chính người chạy mod tới Discord theo chu kỳ cấu hình.",
+  "authors": ["TruongLong0628"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["vn.truonglong.boastcpvp.BoastCPvPClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "fabric-api": ">=0.141.6"
+  }
+}
